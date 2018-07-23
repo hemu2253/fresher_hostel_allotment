@@ -1,0 +1,133 @@
+/* Admin-Panel CSS */
+.adminleft {
+    margin-left: 1%;
+    padding: 10px;
+    float: left;
+    width: 60%;
+	height: 240px;
+	border: 1px solid rgba(0,0,0,0.8);
+}
+.admincenter{
+     margin-left: 1%;
+     padding : 10px;
+     float: left;
+     width: 30%;
+	 height: 200px;
+	 border: 1px solid rgba(0,0,0,0.8);
+}
+.adminright{
+     margin-left: 1%;
+     padding : 10px;
+     float: left;
+     width: 36%;
+	 height: 240px;
+	 border: 1px solid rgba(0,0,0,0.8);
+}
+.updates {
+	 margin-right: 10%;
+	 margin-top: 17%;
+	 margin-left: 1%;
+     padding : 10px;
+	 width: 97%;
+	 height: 350px;
+	 border: 1px solid rgba(0,0,0,0.8);
+}
+#list {
+ /* Width and position */
+    width: 50%;
+    padding: 5px 5px;
+	float: left;
+	margin-bottom: 5px;
+  
+    /* Styles */
+    border: 1px solid #000000; /* Fallback */
+    border: 1px solid rgba(0,0,0,0.8);
+    background: rgba(255,255,255,0.1);
+    cursor:pointer;
+}
+.stulist {
+ /* Width and position */
+    width: 40%;
+    padding: 8px 8px;
+	float: right;
+	margin-bottom: 5px;
+  
+/* Styles */
+    border: 1px solid #000000; /* Fallback */
+    border: 1px solid rgba(0,0,0,0.8);
+    background: rgba(255,255,255,0.1);
+    cursor:pointer;
+}	
+.stulist1 {
+ /* Width and position */
+    width: 40%;
+    padding: 4px 4px;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 1px;
+  
+/* Styles */
+    border: 1px solid #000000; /* Fallback */
+    border: 1px solid rgba(0,0,0,0.8);
+    background: rgba(255,255,255,0.1);
+    cursor:pointer;
+}	
+#random {
+ /* Width and position */
+    width: 80%;
+    padding: 4px 4px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 1px;
+	margin-top: 20%;
+  
+/* Styles */
+    border: 1px solid #000000; /* Fallback */
+    border: 1px solid rgba(0,0,0,0.8);
+    background: rgba(255,255,255,0.1);
+    cursor:pointer;
+}	
+#updatebtn {
+ /* Width and position */
+    width: 80%;
+    padding: 4px 4px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 1px;
+  
+/* Styles */
+    border: 1px solid #000000; /* Fallback */
+    border: 1px solid rgba(0,0,0,0.8);
+    background: rgba(255,255,255,0.1);
+    cursor:pointer;
+}
+.updates textarea
+{
+/* Width and position */
+    width: 80%;
+	height: 150px;
+    padding: 4px 4px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 1px;
+  
+/* Styles */
+    border: 1px solid #000000; /* Fallback */
+    border: 1px solid rgba(0,0,0,0.8);
+    background: rgba(255,255,255,0.9);
+    cursor:pointer;
+}
+.table-highlight
+{
+	background: none;
+}
+
+.table-highlight:hover
+{
+	background: rgba(0,0,255,0.2);
+}
+.table-highlight input , .table-highlight td
+{
+	position: relative;
+	padding: 5px;
+}

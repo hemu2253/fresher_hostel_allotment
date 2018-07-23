@@ -1,0 +1,335 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@font-face {
+	font-family: 'helvetica';
+	src:url('../fonts/helvetica/HelveticaNeue_45_LT.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+html { height: 100%; }
+
+body {
+    font-family: 'helvetica';
+    background: #ffffff;
+    font-weight: 300;
+    font-size: 15px;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.clr {
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+#your{
+/* Styles */
+	width: 500px;
+	height: 355px;
+	position: fixed;
+	top: 150px;
+	left: 410px;
+	opacity: 1;
+	padding: 8px 10px;
+	padding-right:10px ;
+    background: #FFFFFF; 
+    border-radius: 0.4em;
+    border: 1px solid #d3d3d3;
+    box-shadow: inset 3px 3px 2px 1px rgba(255,255,255,0.08), 16px 16px 10px -6px rgba(0, 0, 0, 0.3);
+	transition: all 0.1s ease;
+	z-index: 20;
+}
+#parent{
+/* Styles */
+	width: 500px;
+	position: fixed;
+	top: 150px;
+	left: 410px;
+    background: #FFFFFF; 
+	padding: 8px 5px;
+    border-radius: 0.4em;
+    border: 1px solid #d3d3d3;
+    box-shadow: inset 3px 3px 2px 1px rgba(255,255,255,0.08), 16px 16px 10px -6px rgba(0, 0, 0, 0.3);
+	transition: all 0.1s ease;
+	opacity: 0;
+	z-index: 18;
+}
+#homer{
+/* Styles */
+	width: 500px;
+	position: fixed;
+	top: 150px;
+	left: 410px;
+	opacity: 0;
+    background: #FFFFFF; 
+	padding: 8px 5px;
+    border-radius: 0.4em;
+    border: 1px solid #d3d3d3;
+    box-shadow: inset 3px 3px 2px 1px rgba(255,255,255,0.08), 16px 16px 10px -6px rgba(0, 0, 0, 0.3);
+	transition: all 0.1s ease;
+	z-index: 16;
+}
+#guard{
+/* Styles */
+	width: 500px;
+	position: fixed;
+	top: 150px;
+	left:410px;
+	opacity: 0;
+    background: #FFFFFF; 
+	padding: 8px 5px;
+    border-radius: 0.4em;
+    border: 1px solid #d3d3d3;
+    box-shadow: inset 3px 3px 2px 1px rgba(255,255,255,0.08), 16px 16px 10px -6px rgba(0, 0, 0, 0.3);
+	transition: all 0.1s ease;
+	z-index: 14;
+}
+#blood{
+	width: 15%;
+}
+#dob{
+	width: 35%;
+}
+.rightside{
+	float: right;
+	text-align: left;
+}
+.leftside{
+	float: left;
+	text-align: left;
+}
+input:invalid {
+	box-shadow: 0 0 2px 1px red;
+}
+input:focus:invalid {
+	outline: none;
+	box-shadow: 0 0 2px 1px red;
+}		
+.data-form {
+    /* Styles */
+	width: 300px;
+	height: auto;
+	position: fixed;
+	top: 40%;
+	left: 38%;
+	opacity: 0.8;
+	padding: 8px 10px;
+	padding-right:10px ;
+    background: #FFFFFF; 
+    border-radius: 0.4em;
+    border: 1px solid #d3d3d3;
+    box-shadow: inset 3px 3px 2px 1px rgba(255,255,255,0.08), 16px 16px 10px -6px rgba(0, 0, 0, 0.3);
+	transition: all 0.1s ease;
+	font-family: 'helvetica';
+    font-weight: 400;
+}
+.dataform input:not([type='checkbox']),.dataform textarea,.dataform select , .data-form input[type='number']{
+    /* Size and position */
+    width: 100%;
+    padding: 8px 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+    /* Styles */
+    background: #FFFFFF; /* Fallback */   
+    border: 1px solid #d3d3d3;
+    box-shadow:
+        0 1px 0 rgba(255,255,255,0.5);
+    border-radius: 3px;
+
+    /* Font styles */
+    font-family: 'helvetica';
+    color: #000000;
+
+}	
+.dataform input:not([type='checkbox']):not([type='submit']):hover,.dataform textarea:hover,.dataform select:hover,.data-form input[type='number']:hover{
+    background: #FAFFBD;
+}
+
+.dataform input:not([type='checkbox']):not([type='submit']):focus, .dataform textarea:focus,.dataform select:focus, .data-form input[type='number']:focus{
+    box-shadow: inset 0 0 2px #000;
+    background: #FFFFFF;
+    border-color: #E9E9E9;
+    outline: none; /* Remove Chrome outline */
+}
+.butts{
+	/* Width and position */
+    width: 20%;
+    padding: 8px 5px;
+	margin-bottom: 5px;
+  
+    /* Styles */
+    border: 1px solid #0273dd; /* Fallback */
+    border: 1px solid rgba(0,0,0,0.4);
+    box-shadow:
+        inset 0 0px 0 rgba(255,255,255,0.3),
+        inset 0 10px 10px rgba(255,255,255,0.1);
+    border-radius: 3px;
+    background: #6cbfe7;
+    cursor:pointer;
+  
+    /* Font styles */
+    font-family: 'helvetica';
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    text-shadow: 0 0px 0 rgba(0,0,0,0.8);
+	text-decoration: none;
+	text-align: center;
+}
+.butts:hover {
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+	text-decoration: none;
+	/* Font styles */
+    font-family: 'helvetica';
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    text-shadow: 0 0px 0 rgba(0,0,0,0.8);
+	text-decoration: none;
+	text-align: center;
+}
+.butts:active{
+	background: #287db5;
+	text-decoration: none;
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.6);
+    border-color: #000; /* Fallback */
+    border-color: rgba(0,0,0,0.9);
+	/* Font styles */
+    font-family: 'helvetica';
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    text-shadow: 0 0px 0 rgba(0,0,0,0.8);
+	text-decoration: none;
+	text-align: center;
+}	
+.dataform input[type=submit],.data-form input[type=submit] {
+    /* Width and position */
+    width: 20%;
+    padding: 8px 5px;
+	float: right;
+	margin-bottom: 5px;
+  
+    /* Styles */
+    border: 1px solid #0273dd; /* Fallback */
+    border: 1px solid rgba(0,0,0,0.4);
+    box-shadow:
+        inset 0 0px 0 rgba(255,255,255,0.3),
+        inset 0 10px 10px rgba(255,255,255,0.1);
+    border-radius: 3px;
+    background: #6cbfe7;
+    cursor:pointer;
+  
+    /* Font styles */
+    font-family: 'helvetica';
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    text-shadow: 0 0px 0 rgba(0,0,0,0.8);
+}
+.dataform input[type=submit]:hover ,.data-form input[type=submit]:hover { 
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+}	
+.dataform  input[type=submit]:active ,.data-form  input[type=submit]:active { 
+    background: #287db5;
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.6);
+    border-color: #000; /* Fallback */
+    border-color: rgba(0,0,0,0.9);
+}
+.no-boxshadow .dataform input[type=submit]:hover ,.no-boxshadow .data-form input[type=submit]:hover {
+    background: #2a92d8;
+}
+.dataform h1 {
+	text-align: center;
+	font-family: 'helvetica';
+    font-weight: 400;
+	}
+.dataform h3 {
+	font-family: 'helvetica';
+	font-weight: 300;
+}
+#breaker{
+	height:	15px;
+}
+#bg1{
+	position: relative;
+	padding-left: auto;
+    padding-right: auto;
+	right: 70px;
+    width: 50%;
+}
+.centerside{
+	float: left;
+	margin-left: 100px;
+	margin-right: auto;
+}
+/* Animation Section */
+#your:target ~ #parent{
+	position: fixed;
+	opacity: 0;
+	z-index: 18;
+}
+#parent:target{
+	position: fixed;
+	opacity: 1;
+	z-index: 23;
+}
+#parent:target ~ #homer{
+	position: fixed;
+	opacity: 0;
+	z-index: 22;
+}
+#parent:target ~ #guard{
+	position: fixed;
+	opacity: 0;
+	z-index: 21;
+}
+#homer:target{
+	position: fixed;
+	opacity: 1;
+	z-index: 25;
+}
+#homer:target ~ #guard{
+	position: fixed;
+	opacity: 0;
+	z-index: 24;
+}
+#guard:target{
+	position: fixed;
+	opacity: 1;
+	z-index: 26;
+}
+#guard:target ~ #homer{
+	position: fixed;
+	opacity: 0;
+	z-index: 25;
+}
+#homer:target ~ #parent{
+	position: fixed;
+	opacity: 0;
+	z-index: 24;
+}
+#homer:target ~ #your{
+	position: fixed;
+	opacity: 0;
+	z-index: 20;
+}
+/* Animation Ends */
